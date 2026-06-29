@@ -15,28 +15,21 @@ Input validation for invalid entries
 Play multiple rounds without restarting the program
 
 🛠️ Technologies Used
+
 Python 3
 Built-in random module
-📂 Project Structure
-number_guess_tournament.py
-README.md
-▶️ How to Run
-Make sure Python 3 is installed on your computer.
-Clone this repository:
-git clone https://github.com/your-username/number-guess-tournament.git
-Navigate to the project folder:
-cd number-guess-tournament
-Run the program:
-python number_guess_tournament.py
+
 🎮 Game Menu
 1. Play New Tournament Round
 2. View Tournament Rules
 3. Exit Game
+
 🎯 Difficulty Levels
 Level	Number Range	Attempts
 Easy	1 - 10	3
 Medium	1 - 50	5
 Hard	1 - 100	7
+
 📋 Rules
 Select a difficulty level.
 Guess the randomly generated number.
@@ -44,7 +37,9 @@ You have a limited number of attempts.
 The game provides hints whether your guess is too high or too low.
 After the game ends, your complete guess history is displayed.
 You can start a new tournament round from the main menu.
+
 💻 Sample Output
+
 -------------Number Guess Tournament----------------
 ==============Tournament Menu======================
 1. Play New Tournament Round
@@ -72,6 +67,7 @@ Enter your number: 8
 Your Previous Guess History: [5, 8]
 
 🚀 Future Improvements
+
 Score tracking
 High score leaderboard
 Multiplayer mode
